@@ -1,0 +1,61 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM sitebuild</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+    <nav role="navigation">
+      <div id="overlay-nav-menu" class="overlay-nav-menu">
+        <div class="bgmenu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Safety</a></li>
+        <li><a href="#">Smart Nav</a></li>
+        <li><a href="#">Family Fleet</a></li>
+        <li><a href="#">Connected Home</a></li>
+        <li><a href="#">Productivity</a></li>
+      </ul>
+      <div class="submnu">
+      <a href="#"> Our Process</a>
+      <a href="#"> Insight Report PDF</a>
+      </div>
+    </div>
+</div>
+      <a data-toggle-menu class="overlay-nav-menu-toggle" href="#"><i class="fi-list"></i></a>
+    </nav>
+
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+    <footer>
+      <div class="grid-container">
+      <div class="grid-x">
+          <div class="cell medium-6"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labora.</h2></div>
+          <div class="cell medium-2">&nbsp;</div>
+            <div class="cell medium-4">
+            <h4>Dig In</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Safety</a></li>
+              <li><a href="#">Smart Nav</a></li>
+              <li><a href="#">Family Fleet</a></li>
+              <li><a href="#">Connected Home</a></li>
+              <li><a href="#">Productivity</a></li>
+              <li class="mdsh">&mdash; </li>
+              <li><a href="#">Our Process</a></li>
+              <li><a href="#">Insight Report PDF</a></li>
+            </ul></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

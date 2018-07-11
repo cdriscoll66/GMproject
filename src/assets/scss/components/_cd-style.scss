@@ -1,0 +1,96 @@
+.container {
+  height:886px;
+  p {
+    font-size:18px;
+  }
+
+}
+.upperquad {
+  //height:2658px;
+  background-image:url('/assets/img/gm-bg1.png');
+  background-size:cover;
+  background-position:center;
+  .grid-container {
+    padding-top:230px;
+  }
+}
+.lowerquad {
+  //height:4430px;
+  background-image:url('/assets/img/gm-bg2.png');
+  background-size:cover;
+  background-position:center;
+  .grid-container {
+    padding-top:383px;
+  }
+}
+
+
+.bg-blk {
+  color:$white;
+  h1, h2 {
+  font-weight: 200;
+  line-height:1.2;
+}
+.grid-container {
+  padding-top:40vh;
+}
+}
+
+
+//footer stylesheet
+
+footer {
+  background-color:$black;
+  color:$white;
+  font-weight:200;
+  .grid-container {
+      max-width: 85rem;
+      padding: 150px 0;
+  }
+  h2 {
+    font-size:50px;
+    font-weight:200;
+  }
+  h4 {
+    font-size:20px;
+    text-transform:uppercase;
+  }
+  ul {
+    list-style:none;
+    margin-left:0;
+    line-height:1;
+    margin-top:1rem;
+  }
+  a {
+    font-size:50px;
+    opacity:0.7;
+    color:$white;
+    &:hover, &:active {
+      opacity:1;
+      color:$white;
+    }
+
+  }
+}
+
+.mdsh{
+  margin:2rem 0;
+}
+
+
+// Sticky side Menu
+
+.sticky{
+  top:30vh !important;
+}
+
+nav.sticky-container{display:none;}
+
+.is-active {
+  color:$black;
+}
+
+
+audio {
+  display:none;
+}
